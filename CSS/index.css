@@ -1,0 +1,181 @@
+body {
+    background-color: #7fffd4;
+    padding-right: 4px;
+}
+
+.topo{
+    background-color:black;
+    margin: -12px;
+    height: 48Px;;
+}
+
+.logo {
+    margin: 12px 11px;
+    width: 140px;
+    padding: 12px;
+    font-size: 20px;
+    color: blue; 
+}
+
+.in1  {
+    float: right;
+    margin: -50px 820px;
+    padding: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform ease 0.3s;
+    color: white;
+}
+.in1:hover {
+    background-color: orangered;
+    border-radius: 30px;
+    text-align: center;
+    transform: scale(1.2);
+}
+.eve1  {
+    float: right;
+    margin: -50px 680px;
+    padding: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform ease 0.3s;
+    color: white;
+}
+.eve1:hover {
+    background-color: orangered;
+    border-radius: 30px;
+    text-align: center;
+    transform: scale(1.2);
+}
+
+.par1  {
+    float: right;
+    margin: -50px 440px;
+    padding: 2px;
+    width: 170px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform ease 0.3s;
+    color: white;
+}
+.par1:hover {
+    background-color: orangered;
+    border-radius: 30px;
+    text-align: center;
+    transform: scale(1.2);
+}
+
+.cont1  {
+    float: right;
+    margin: -50px 320px;
+    padding: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform ease 0.3s;
+    color: white;
+}
+.cont1:hover {
+    background-color: orangered;
+    border-radius: 30px;
+    text-align: center;
+    transform: scale(1.2);
+}
+
+.cadastro {
+    float:right;
+}
+
+.log {
+    margin: -50px 120px;
+    float: right;
+    padding: 2px;
+    font-size: 20px;   
+    text-decoration: none;
+    transition: transform ease 0.3s;
+    color: white;
+}
+
+.log:hover {
+    background-color: orangered;
+    border-radius: 30px;
+    text-align: center;
+    transform: scale(1.2);
+}
+
+.reg {
+    margin: -50px 20px;
+    float: right;
+    padding: 2px;
+    font-size: 20px;   
+    text-decoration: none;
+    transition: transform ease 0.3s;
+    color: white;
+}
+
+.reg:hover {
+    background-color: orangered;
+    border-radius: 30px;
+    text-align: center;
+    transform: scale(1.2);
+}
+
+
+.img1 {
+    background-color:orange;
+    width: 40px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.img2 {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape {
+    background-color: black;
+    color: white;
+    margin-top: 100%;
+}
