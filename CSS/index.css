@@ -81,26 +81,6 @@ body {
     transform: scale(1.2);
 }
 
-.cadastro {
-    float:right;
-}
-
-.log {
-    margin: -50px 120px;
-    float: right;
-    padding: 2px;
-    font-size: 20px;   
-    text-decoration: none;
-    transition: transform ease 0.3s;
-    color: white;
-}
-
-.log:hover {
-    background-color: orangered;
-    border-radius: 30px;
-    text-align: center;
-    transform: scale(1.2);
-}
 
 .reg {
     margin: -50px 20px;
@@ -135,46 +115,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.rodape {
+#rodape {
     background-color: black;
     color: white;
     margin-top: 100%;

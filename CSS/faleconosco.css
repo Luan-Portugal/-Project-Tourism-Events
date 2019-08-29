@@ -134,3 +134,8 @@ input[type="submit"]:hover{
   -webkit-animation-delay: .1s;
   animation-delay: .1s;
 }
+
+textarea {
+  resize: none;
+  margin: 3px;
+}
