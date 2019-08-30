@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<?php
 // Destinatário
 $para = "contato.luanps@gmail.com";
 
@@ -7,7 +17,7 @@ $assunto = "Contato do através do site ...";
 // Campos do formulário de contato
 $nome = $_POST['nome'];
 $email = $_POST['email'];
-$telefone = $_POST['telefone'];
+$telefone = $_POST['tel'];
 $mensagem = $_POST['mensagem'];
 
 // Monta o corpo da mensagem com os campos
@@ -28,3 +38,6 @@ if (!empty($nome) && !empty($email) && !empty($mensagem)) {
     $msg = "Erro ao enviar a mensagem.";
     echo "<script>alert('$msg');window.location.assign('/HTML/contatos.html');</script>";
 }
+?>
+</body>
+</html>
