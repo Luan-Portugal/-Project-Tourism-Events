@@ -1,0 +1,29 @@
+@import '../SCSS/header.scss';
+@import '../SCSS/section.scss';
+@import '../SCSS/main.scss';
+@import '../SCSS/footer.scss';
+
+a:link {
+    text-decoration: none;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 70px 500px 1fr 200px;
+    grid-template-areas:
+    "header"
+    "section"
+    "main"
+    "footer"; 
+}
+
+div.imagem-fundo {
+    background-image: url("../imagens/estradas.jpg");
+    height: 800px;
+}
+
+div.card-group {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

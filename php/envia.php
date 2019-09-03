@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
 <?php
 // Destinatário
 $para = "contato.luanps@gmail.com";
@@ -20,6 +11,7 @@ $email = $_POST['email'];
 $telefone = $_POST['tel'];
 $mensagem = $_POST['mensagem'];
 
+
 // Monta o corpo da mensagem com os campos
 $corpo = "<html><body>";
 $corpo .= "Nome: $nome ";
@@ -30,14 +22,12 @@ $corpo .= "</body></html>";
 $email_headers = implode("\n", array("From: $nome", "Reply-To: $email", "Subject: $assunto", "Return-Path: $email", "MIME-Version: 1.0", "X-Priority: 3", "Content-Type: text/html; charset=UTF-8"));
 
 //Verifica se os campos estão preenchidos para enviar então o email
-if (!empty($nome) && !empty($email) && !empty($mensagem)) {
+if (!empty($nome) && !empty($email) &&  !empty($telefone) && !empty($mensagem)) {
     mail($para, $assunto, $corpo, $email_headers);
     $msg = "Sua mensagem foi enviada com sucesso.";
-    echo "<script>alert('$msg');window.location.assign('/HTML/index.html');</script>";
+    echo "<script>alert('$msg');window.location.assign('../HTML/index.html');</script>";
 } else {
     $msg = "Erro ao enviar a mensagem.";
-    echo "<script>alert('$msg');window.location.assign('/HTML/contatos.html');</script>";
+    echo "<script>alert('$msg');window.location.assign('../HTML/contatos.html');</script>";
 }
 ?>
-</body>
-</html>

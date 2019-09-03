@@ -1,0 +1,20 @@
+footer.footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+div.contato {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+div.links-contato {
+    margin-left: 50px;
+}
+
+footer small {
+    display: block;
+}

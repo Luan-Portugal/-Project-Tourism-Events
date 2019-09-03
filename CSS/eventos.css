@@ -19,21 +19,49 @@ header a {
     margin-right: 10px;
     opacity: 1;
     font-size: 16px;
+    transition: transform ease 0.3s;
 }
 
 header a:hover {
     background: rgb(243, 246, 248);
     color: black;
-    border-radius: 10px;
+    border: 1px solid white;
+    transform: scale(1.2);
 }
 
-
 .card {
-    border-radius: 10px;
+    border-width: 2px;
+    border-radius: 0,9px;
     border-color: black;
 }
 
 .card-deck {
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+footer.footer {
+    grid-area: footer;
+    background: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+div.contato {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div.links-contato {
+    display: flex;
+    flex-direction: column;
+}
+
+div.links-contato:nth-child(2n) {
+    margin-left: 30px;
+}
+
+div.links-contato:nth-child(3) {
+    margin-left: 30px;
 }
